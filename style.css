@@ -1976,7 +1976,8 @@ button:hover {
   background-repeat: no-repeat;
 }
 .bg-primary {
-  background-color: #4c1864 !important;
+  background-color: #2ea7db !important;
+  /*-------#4c1864----*/
 }
 .bg-accent {
   background-color: #f8f8f8;
@@ -3838,9 +3839,10 @@ span.menu-trigger i {
   overflow: hidden;
 }
 .overlay-slider:before {
-  content: url('img/slider/slider-curve-overlay.png');
+  content: url('overlay.jpg');   
+  /*-----------------------------------------------overlay changed-----------------------------------------------*/
   height: 100%;
-  width: 100%;
+  width: 50%;
   position: absolute;
   top: 0;
   left: 0;
